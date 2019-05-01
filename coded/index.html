@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            font-size: 12px;
+            color: #52616B
+        }
+        table{
+            width: 700px;
+            margin: auto;
+            height: auto;
+            border-spacing: 0;
+        }
+        [class*="t-row-"]{
+            display: flex;
+        }
+        [class*="t-row-"] td{
+            flex: 1 1 50%;
+            margin: auto;
+            padding: 0 20px;
+        }
+        .btn{
+            padding: 15px 25px;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+            background: #17A0FF;
+            border-radius: 50px;
+        }
+        .t-row-a{
+            background: url('images/hero-a.jpg')no-repeat center center;
+            height: 399px;
+        }
+        .t-row-a .logo{
+            margin-bottom: -15px;
+        }
+        .t-row-a td h1{
+            font-size: 45px;
+            font-weight: 300;
+            padding: 0 10px;
+            line-height: 50px;
+            margin-bottom: 0;
+        }
+        .t-row-a td h2{
+            margin: 5px 0 50px;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        .t-row-b{
+            background: url('images/hero-b.jpg')no-repeat center center;
+            height: 355px;
+        }
+        .t-row-b td:last-child{
+            text-align: left;
+            padding-top: 60px;
+            padding-left: 50px;
+        }
+        .t-row-b td h3{
+            color: #1985AD;
+            padding-right: 80px;
+            font-style: oblique;
+        }
+        .t-row-b td p{
+            line-height: 12pt;
+            margin-bottom: 5px;
+        }
+        .t-row-c{
+            background: url('images/hero-c.jpg')no-repeat center center;
+            height: 380.4px;
+        }
+        .t-row-c td .btn{
+            position: relative;
+            top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="t-row-a">
+            <td>
+                <img src="images/logo.png" alt="" class="logo"> 
+                <h1>The secret to a whiter smile</h1>
+                <h2>Get the smile you deserved</h2>
+                <a href="" class="btn">Shop now</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="t-row-b">
+            <td></td>
+            <td>
+                <h3>Noticeably whiter and brighter teeth after 1 use</h3>
+                <p>At home teeth whitening systems can deliver whitening results similar to those you’ll get by visiting your dentist.</p>
+                <p>You can reduce the number of visits and the money spent with an at home teeth whitening system.</p>
+                <p>You’ll see similar results and have that whiter and brighter smile just like your favorite celebrities</p>
+            </td>
+        </tr>
+        <tr class="t-row-c">
+            <td>
+                <img src="images/_a.png" alt="">
+                <p>Brush your teeth before applying the gel</p>
+            </td>
+            <td>
+                <img src="images/_b.png" alt="">
+                <p>Apply the gel directly onto your teeth</p>
+            </td>
+            <td>
+                <img src="images/_c.png" alt="">
+                <p>Rinse with water after 15 minutes</p>
+                <a href="" class="btn">Shop now</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
